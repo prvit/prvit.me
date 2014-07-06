@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{16c59e85-8e44-44f8-870a-68385de77708}</ProjectGuid>
+    <ProjectHome />
+    <ProjectView>ShowAllFiles</ProjectView>
+    <StartupFile>app.js</StartupFile>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+    <Compile Include="app.js" />
+    <Content Include="tpl\about.html" />
+    <Content Include="tpl\blog01.html" />
+    <Content Include="tpl\blog.html" />
+    <Content Include="tpl\contact.html" />
+    <Content Include="tpl\cv.html" />
+    <Content Include="tpl\index.html" />
+    <Content Include="tpl\information.html" />
+    <Content Include="tpl\layout.html" />
+    <Content Include="tpl\projects.html" />
+    <Content Include="tpl\work01.html" />
+    <Content Include="tpl\work.html" />
+    <Content Include="public\css\bootstrap.css" />
+    <Content Include="public\css\main.css" />
+    <Content Include="public\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="public\img\user.png" />
+    <Content Include="public\img\zoom.png" />
+    <Content Include="public\img\blog01.jpg" />
+    <Content Include="public\img\loader.gif" />
+    <Compile Include="public\js\bootstrap.min.js" />
+    <Compile Include="public\js\hover.zoom.conf.js" />
+    <Compile Include="public\js\hover.zoom.js" />
+    <Content Include="public\img\portfolio\1.jpg" />
+    <Content Include="public\img\portfolio\2.jpg" />
+    <Content Include="public\img\portfolio\3.jpg" />
+    <Content Include="public\img\portfolio\port01.jpg" />
+    <Content Include="public\img\portfolio\port02.jpg" />
+    <Content Include="public\img\portfolio\port03.jpg" />
+    <Content Include="public\img\portfolio\port04.jpg" />
+    <Content Include="public\img\portfolio\port05.jpg" />
+    <Content Include="public\img\portfolio\port06.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="public" />
+    <Folder Include="public\css" />
+    <Folder Include="public\fonts" />
+    <Folder Include="public\img" />
+    <Folder Include="public\img\portfolio" />
+    <Folder Include="public\js" />
+    <Folder Include="tpl" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

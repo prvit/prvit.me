@@ -16,6 +16,9 @@
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="/js/hover.zoom.js"></script>
     <script src="/js/hover.zoom.conf.js"></script>
+    <!-- Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -23,6 +26,7 @@
     <![endif]-->
 </head>
 <body>
+    
     <!-- Static navbar -->
     <div class="navbar navbar-inverse navbar-static-top">
         <div class="container">
@@ -32,38 +36,22 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">STANLEY</a>
+                <a class="navbar-brand" href="/">prvit</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="work.html">Work</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="cv">CV</a></li>
+                    <li><a href="about">About</a></li>
+                    <li><a href="blog">Blog</a></li>
+                    <li><a href="contact">Contact</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
     </div>
 
-    <!-- +++++ Welcome Section +++++ -->
-    <div id="ww">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 centered">
-                    <img src="assets/img/user.png" alt="Stanley">
-                    <h1>Hi, I am Stanley!</h1>
-                    <p>Hello everybody. I'm Stanley, a free handsome bootstrap theme coded by BlackTie.co. A really simple theme for those wanting to showcase their work with a cute & clean style.</p>
-                    <p>Please, consider to register to <a href="http://eepurl.com/IcgkX">our newsletter</a> to be updated with our latest themes and freebies. Like always, you can use this theme in any project freely. Share it with your friends.</p>
-
-                </div><!-- /col-lg-8 -->
-            </div><!-- /row -->
-        </div> <!-- /container -->
-    </div><!-- /ww -->
-
-    <div class="center-block">
-        <%=body=%>
+    <div id="body">
+            <%=body%>
     </div>
-
     <!-- +++++ Footer Section +++++ -->
     <div id="footer">
         <div class="container">
@@ -73,22 +61,22 @@
                     <p>
                         Some Address 987,<br />
                         +34 9054 5455, <br />
-                        Madrid, Spain.
+                        Kyiv, Ukraine.
                     </p>
                 </div><!-- /col-lg-4 -->
 
                 <div class="col-lg-4">
                     <h4>My Links</h4>
                     <p>
-                        <a href="#">Dribbble</a><br />
-                        <a href="#">Twitter</a><br />
-                        <a href="#">Facebook</a>
+                        <a href="https://github.com/prvit">GitHub</a><br />
+                        <a href="https://twitter.com/vit_prokopchuk">Twitter</a><br />
+                        <a href="https://www.facebook.com/prvit.me">Facebook</a>
                     </p>
                 </div><!-- /col-lg-4 -->
 
                 <div class="col-lg-4">
-                    <h4>About Stanley</h4>
-                    <p>This cute theme was created to showcase your work in a simple way. Use it wisely.</p>
+                    <h4>About prvit.me</h4>
+                    <p>This is simple portfolio site made by Prokopchuk Vitaliy.</p>
                 </div><!-- /col-lg-4 -->
 
             </div>
@@ -99,6 +87,6 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

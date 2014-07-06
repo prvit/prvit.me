@@ -12,8 +12,23 @@ app.configure(function() {
 app.get('/', function(req, res){          // Обрабатываем запрос корневой страницы "/"
     res.render('index.html');
 });
-app.get('/portfolio', function(req, res){ // Обрабатываем запрос страницы "/portfolio"
-    res.render('portfolio.html');
+
+app.get('/cv', function (req, res) {
+    res.render('cv.html');
+});
+app.get('/about', function (req, res) {
+    res.render('about.html');
+});
+app.get('/blog', function (req, res) {
+    res.render('blog.html');
+});
+
+app.get('/contact', function (req, res) {
+    res.render('contact.html');
+});
+
+app.get('/blog01', function (req, res) {
+    res.render('blog01.html');
 });
 
 var port = process.env.PORT || 5000;       

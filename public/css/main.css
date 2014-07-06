@@ -144,7 +144,7 @@ a:after {
 #ww {
 	padding-top: 70px;
 	padding-bottom: 70px;
-	background-color: #f2f2f2;
+	/*background-color: #f2f2f2;*/
 }
 
 
@@ -171,6 +171,12 @@ a:after {
 	padding-top: 60px;
 	padding-bottom: 60px;
 	background-color: #f2f2f2;
+}
+
+#body {
+    /*padding-top: 60px;*/
+	padding-bottom: 20px;
+	/*background-color: #f2f2f2;*/
 }
 
 #white {
@@ -239,4 +245,76 @@ bt {
 .glyphicon {
 	font-size: 40px;
 	color: #1abc9c;
+}
+
+/* Star */
+
+hr.star-light,
+hr.star-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.star-light:after,
+hr.star-primary:after {
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.star-light {
+    border-color: #fff;
+}
+
+hr.star-light:after {
+    color: #fff;
+    background-color: #18bc9c;
+}
+
+hr.star-primary {
+    border-color: #333;
+}
+
+hr.star-primary:after {
+    color: #333;
+    background-color: #fff;
+}
+
+/* Options */
+.options {
+    position:fixed;
+    top:20%;
+    left:0;
+    background:#f2f2f2;
+    color:#333;
+    -webkit-border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    padding:5px;
+    width:50px;
+    border:5px solid #1abc9c;
+    border-left:none;
+}
+/* Buttons.. override bootstrap buttons style */
+.btn {
+    color: #ffffff;
+    background-color: #1abc9c;
+    border-color: #16a085;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success {
+    color: #ffffff;
+    background-color: #16a085;
+    border-color: #16a085;
 }
