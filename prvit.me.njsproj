@@ -16,6 +16,7 @@
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
   <ItemGroup>
+    <Compile Include="public\js\sendmail.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
     <Compile Include="app.js" />
@@ -28,6 +29,7 @@
     <Content Include="tpl\information.html" />
     <Content Include="tpl\layout.html" />
     <Content Include="tpl\projects.html" />
+    <Content Include="tpl\prokopchuk_cv.html" />
     <Content Include="tpl\work01.html" />
     <Content Include="tpl\work.html" />
     <Content Include="public\css\bootstrap.css" />
